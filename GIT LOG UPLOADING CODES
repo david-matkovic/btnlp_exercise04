@@ -1,0 +1,35 @@
+
+dama010@UNIVW-NB380 MINGW64 ~/Documents/Miscellanea/All things Python/Neuer Ordner/btnlp_exercise04 (main)
+$ ^[[200~git init
+bash: $'\E[200~git': command not found
+
+dama010@UNIVW-NB380 MINGW64 ~/Documents/Miscellanea/All things Python/Neuer Ordner/btnlp_exercise04 (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/dama010/Documents/Miscellanea/All things Python/Neuer Ordner/btnlp_exercise04/.git/
+
+dama010@UNIVW-NB380 MINGW64 ~/Documents/Miscellanea/All things Python/Neuer Ordner/btnlp_exercise04 (main)
+$ git remote add origin https://github.com/david-matkovic/btnlp_exercise04.git
+error: remote origin already exists.
+
+dama010@UNIVW-NB380 MINGW64 ~/Documents/Miscellanea/All things Python/Neuer Ordner/btnlp_exercise04 (main)
+$ git add .
+
+dama010@UNIVW-NB380 MINGW64 ~/Documents/Miscellanea/All things Python/Neuer Ordner/btnlp_exercise04 (main)
+$ git commit -m "Initial commit of btnlp_exercise04 files"
+On branch main
+nothing to commit, working tree clean
+
+dama010@UNIVW-NB380 MINGW64 ~/Documents/Miscellanea/All things Python/Neuer Ordner/btnlp_exercise04 (main)
+$ git push -u origin main
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (17/17), 10.08 KiB | 10.08 MiB/s, done.
+Total 17 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/david-matkovic/btnlp_exercise04.git
+   871440c..c592219  main -> main
+branch 'main' set up to track 'origin/main'.
+
+dama010@UNIVW-NB380 MINGW64 ~/Documents/Miscellanea/All things Python/Neuer Ordner/btnlp_exercise04 (main)
