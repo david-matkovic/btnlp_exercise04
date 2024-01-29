@@ -1,0 +1,86 @@
+
+# The most common mistakes and style problems were due to a lack of comments or 
+# line length. Lesson learned :) 
+
+
+
+For my calculator exercise:
+
+The only problems were:
+
+calculator_exercise.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+calculator_exercise.py:1:0: C0115: Missing class docstring (missing-class-docstring)
+calculator_exercise.py:5:4: C0116: Missing function or method docstring (missing-function-docstring)
+calculator_exercise.py:8:4: C0116: Missing function or method docstring (missing-function-docstring)
+calculator_exercise.py:11:4: C0116: Missing function or method docstring (missing-function-docstring)
+calculator_exercise.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+calculator_exercise.py:21:4: C0116: Missing function or method docstring (missing-function-docstring)
+calculator_exercise.py:24:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+
+Which, as I have understood mean that I haven't added enough comments to explain what is going on in my code.
+The score was 6.40 (until I added the comments)
+
+
+For the genism exercise:
+
+genism_exercise.py:6:0: C0301: Line too long (172/100) (line-too-long)
+genism_exercise.py:4:0: E0401: Unable to import 'gensim.summarization' (import-error)
+genism_exercise.py:4:0: E0611: No name 'summarization' in module 'gensim' (no-name-in-module)
+genism_exercise.py:6:0: C0103: Constant name "text" doesn't conform to UPPER_CASE naming style (invalid-name)
+For some reason  the score was only 0.71 :(
+
+The comments are pretty much self-explanatory. 
+
+
+
+Nltk exercise:
+
+nltk_exercise.py:14:0: C0301: Line too long (172/100) (line-too-long)
+nltk_exercise.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+nltk_exercise.py:14:0: C0103: Constant name "text" doesn't conform to UPPER_CASE naming style (invalid-name)
+nltk_exercise.py:34:0: C0103: Constant name "grammar" doesn't conform to UPPER_CASE naming style (invalid-name)
+The score was 8.40 so I didn't change much to improve it.
+
+
+
+Pokemon code:
+
+pokemon_code.py:5:0: C0301: Line too long (106/100) (line-too-long)
+pokemon_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+
+I got Your code has been rated at 9.23/10
+
+
+SpaCy: 
+
+spicy_exercise.py:9:0: C0301: Line too long (172/100) (line-too-long)
+spicy_exercise.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+spicy_exercise.py:9:0: C0103: Constant name "text" doesn't conform to UPPER_CASE naming style (invalid-name)
+I only got 6.67
+But after I added some comments and adjusted the line length and changed the constant name to TEXT, I got 10.0
+
+
+Module TextBlob_exercise:
+
+
+TextBlob_exercise.py:3:89: C0303: Trailing whitespace (trailing-whitespace)
+TextBlob_exercise.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+TextBlob_exercise.py:1:0: C0103: Module name "TextBlob_exercise" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 6.67/10 (previous run: 6.67/10, +0.00)
+Always the same mistakes oops. 
+
+
+
+Module panda_file_code:
+
+panda_file_code.py:4:0: C0301: Line too long (109/100) (line-too-long)
+panda_file_code.py:31:0: C0301: Line too long (136/100) (line-too-long)
+panda_file_code.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+
+-----------------------------------
+Your code has been rated at 7.86/10
+
+Again, I added comments, but could not break file path lines. Therefore, I only improved my score up to 8.57 :(

@@ -1,0 +1,100 @@
+
+Panda:
+
+I think it is good that Diana ran the request function different times in order to keep track of what she did and be able
+to visualize the data
+
+They identified and counts zip codes containing, then sliced zip codes to keep only the first 5 characters, addressing the issue of long zip codes. 
+I think this step is crucial for maintaining a standard format for zip codes.
+
+Checking for zip codes with '00000' and setting them to NaN is an important step in cleaning up unrealistic or placeholder data.
+I like how Diana converted all city names to uppercase and counts their occurrences - this is good for data consistency.
+
+They removed columns with multiple NaN values (indices 38-49) as well as the 'Landmark' column( irrelevant or excessively incomplete data). 
+Diana's code is systematic for the cleaning and preprocessing of the dataset. 
+
+Diana's code is effective in cleaning and preprocessing the dataset, maybe including try-except blocks or validating data after key steps could make the code more robust.
+
+
+
+RegEx:
+
+Diana's approach to re module is consistent and appropriate for each problem.
+
+Diana's function names are clear and her structured approach to each problem make her code easy to understand and follow.
+
+The only thing that is find puzzling is, in problem 54, the approach to concatenate consecutive numbers changes the original text structure, which may not be the desired outcome. 
+
+In, in Problem 54 and Problem 55, there is a slight misunderstanding of the problem statement which leads to outputs that don't fully align with the intended objectives.
+
+
+
+Pokemon:
+
+Diana's file is overall clear and neat.
+
+Keeping rows where 'weight_kg' is not NaN is practical for a better visualization.
+
+Maybe one could have defined a function to convert multiple columns at once, reducing code repetition.
+
+Maybe adding comments to explain the purpose behind certain operations (like data type conversions or specific plot choices) would make the code more understandable for others.
+
+
+
+NLP libraries:
+
+Diana's implementation of NLTK was good and clear. They made an interesting observation about the polarity and subjectivity of the Moby Dick text, providing a thoughtful analysis of its sentiment.
+
+I guess doing making word_tokened_text lowercase and filtering stopwords twice is redundant.
+
+The second loop can be removed as the first list comprehension does it alreaddy.
+
+When it comes to spaCy Visualization,maybe adding insights about what the visualization shows would be informative.
+
+Overall, the code is good and works :)
+
+
+
+Exercise 5:
+
+Code clear and well structured. Diana notes, the calculator is limited to two numbers and one operation at a time. 
+
+Extending the calculator to handle multiple operations and operands would make it more versatile.
+
+There is redundancy in the if-elif statements where the operation is determined, which I guess could be streamlined, for instance by using a dictionary to map operations to their respective functions(?)
+
+
+
+Exercise 6:
+
+I think the implementation of NLTK's tokenization and POS tagging functions are well-done.
+
+However, the method to count verbs is missing some cases and could be refined for more accurate results.
+
+
+
+Exercise 7:
+
+ 	
+I feel like adding docstrings to class methods would improve the readability of the code.
+
+But other than that, everything seems to be working well.
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+POST LINTING & POST AUTOFORMATTING
+
+
+- I like how Diana I changed the order of the library imports, 
+and removed unnecessary 'else' statements in loops. 
+
+- Diana also split text lines that were too long which makes the text more legible
+without having to scroll to see the whole line.
+
+- Adding comments to her codes also improved readability
+
+- As for rest, I had no problems understanding her well neat codes :) 
+
+
+
